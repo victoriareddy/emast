@@ -1,0 +1,17 @@
+sb 0 created with content 'start'
+sb 0: start
+inserted 'XXX' at 0 in sb 0
+sb 0: XXXstart
+inserted 'END' at 8 in sb 0
+sb 0: XXXstartEND
+removed [3,3) from sb 0
+sb 0: XXXstartEND
+removed [10,11) from sb 0
+sb 0: XXXstartEN
+removed [0,10) from sb 0
+sb 0: 
+appended 'restart' to sb 0
+sb 0: restart
+appended 'again!' to sb 0
+sb 0: restartagain!
+deleted sb 0

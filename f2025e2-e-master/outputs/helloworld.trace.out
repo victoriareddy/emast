@@ -1,0 +1,9 @@
+sb 0 created with content 'hello'
+sb 0: hello
+appended 'world' to sb 0
+sb 0: helloworld
+inserted '___' at 5 in sb 0
+sb 0: hello___world
+removed [5,8) from sb 0
+sb 0: helloworld
+deleted sb 0

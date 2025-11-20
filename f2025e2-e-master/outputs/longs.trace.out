@@ -1,0 +1,13 @@
+sb 0 created with content 'startingstring'
+sb 0: startingstring
+inserted 'XXXxxxXXXxxx' at 0 in sb 0
+sb 0: XXXxxxXXXxxxstartingstring
+removed [3,3) from sb 0
+sb 0: XXXxxxXXXxxxstartingstring
+removed [0,26) from sb 0
+sb 0: 
+appended 'restart' to sb 0
+sb 0: restart
+appended 'abcdefghijklmnopqrstuvwxyz_again!!!' to sb 0
+sb 0: restartabcdefghijklmnopqrstuvwxyz_again!!!
+deleted sb 0

@@ -1,0 +1,500 @@
+   14  ./bin/second_trie -f testcases/dinosaurs.in
+   15  make hei
+   16  make hei
+   17  make tamatoa
+   18  ./bin/second_trie -f testcases/dinosaurs.in
+   19  ./bin/trie_ref -f testcases/dinosaurs.in
+   20  trie_ref -f testcases/dinosaurs.in
+   21  ./bin/second_trie -f testcases/dinosaurs.in > input.txt
+   22  cat input.txt
+   23  trie_ref -f testcases/dinosaurs.in > ref.txt
+   24  diff input.txt ref.txt
+   25  history > shell_logs.txt
+   26  cat shell_logs.txt
+   27  ls
+   28  git add . 
+   29  git commit -m "done"
+   30  git push
+   31  cd ..
+   32  cd ..
+   33  rm -rf masterybeta
+   34  cd proficiency
+   35  pwd
+   36  git clone git@github.com:victoriareddy/masterybeta.git
+   37  mkdir profiency
+   38  mkdir proficiency
+   39  cd proficiency
+   40  pwd
+   41  git clone git@github.com:victoriareddy/masteryalpha.git
+   42  cd proficiency
+   43  pwd
+   44  git clone git@github.com:victoriareddy/masterye.git
+   45  touch ~/.gdbinit
+   46  ls
+   47  echo "set history save on" > ~/.gdbinit
+   48  cat ~/gdbinit
+   49  cat ~/.gdbinit
+   50  make 
+   51  make check
+   52  chmod +x ref.out
+   53  make check
+   54  ./bin.a.out -c testcases/short1.rep
+   55  ./bin/a.out -c testcases/short1.rep
+   56  ./bin/a.out -t testcases/short1.rep
+   57  gdb bin/a.out
+   58  make clean
+   59  make debug
+   60  gdb bin/a.out
+   61  make clean
+   62  make all
+   63  make 
+   64  make check
+   65  make debug
+   66  make comp
+   67  make debug
+   68  gdb bin/a.out
+   69  make comp
+   70  make check > myout.txt
+   71  make comp > theout.txt
+   72  make comp
+   73  make clean
+   74  make debug 
+   75  gdb bin/a.out
+   76  make clean
+   77  make debug
+   78  make check
+   79  make 
+   80  make debug
+   81  make check
+   82  make comp
+   83  make clean
+   84  make check
+   85  make clean
+   86  make 
+   87  make check
+   88  echo "set history save on" > ~/.gdbinit
+   89  cat ~/.gdbinit
+   90  git clone git@github.com:victoriareddy/masteryf.git
+   91  git remote -v
+   92  make subway
+   93  make potbelly
+   94  make subway
+   95  make mikes
+   96  make potbelly
+   97  ./bin/sb -i testcases/catdel.trace
+   98  gdb bin/sb
+   99  make sammy 
+  100  make snarfs
+  101  make subway
+  102  make potbelly
+  103  gdb bin/sb
+  104  make snarfs
+  105  make potbelly
+  106  gdb bin/sb
+  107  make snarfs
+  108  make subway
+  109  make snarfs
+  110  make subway
+  111  make snarfs
+  112  make subway
+  113  make milse
+  114  make mikes
+  115  make cheba
+  116  make potbelly
+  117  gdb bin/sb
+  118  make potbelly
+  119  gdb bin/sb
+  120  make snarfs
+  121  make subway
+  122  make potbelly
+  123  make mikes
+  124  make potbelly
+  125  gdb bin/sb
+  126  make snarfs
+  127  make potbelly
+  128  make cheba
+  129  make mikes
+  130  ./bin/sb -i testcases/edges.trace
+  131  gdb bin/sb
+  132  make snarfs
+  133  make mikes
+  134  ./bin/sb -i testcases/edges.trace
+  135  history > shell_logs.txt
+  136  git add . 
+  137  git commit -m "c"
+  138  git push
+  139  cd ..
+  140  ls
+  141  rm -rf shared-repo-version-f-victoriareddy/
+  142  git clone git@github.com:CS429-FA2025/shared-repo-version-f-victoriareddy.git
+  143  pwd
+  144  make 
+  145  make clean
+  146  make debug
+  147  make check
+  148  make comp
+  149  make 
+  150  make all
+  151  make clean
+  152  make -o
+  153  make
+  154  ls
+  155  cd mastery-version-e-master
+  156  make
+  157  make tests
+  158  ./mini_ci testcases/basic_add.s
+  159  gdb mini_ci
+  160  make clean
+  161  make debug
+  162  gdb mini_ci
+  163  make clean
+  164  make 
+  165  make debug
+  166  make tests
+  167  make check
+  168  chmod +x mini_ci_reference
+  169  make check
+  170  make tests
+  171  make clean
+  172  make
+  173  make week2
+  174  make
+  175  make make clean
+  176  make clean
+  177  make 
+  178  make week2
+  179  ./se -h
+  180  ./se-lab-victoria -h
+  181  ./se-lab -h
+  182  make clean
+  183  make 
+  184  make clean
+  185  make 
+  186  ./se -h
+  187  ./se -i testcases/basics/add.in
+  188  ls
+  189  cd src
+  190  ls
+  191  ./se -h
+  192  ./test-se 
+  193  ls
+  194  ./se -i test-se
+  195  ./bin/se -h
+  196  ./bin/test-hw 
+  197  make week1
+  198  test-hw -h
+  199  test-hw
+  200  ./bin/test-hw 
+  201  make week1
+  202  make clean
+  203  make week1
+  204  git add . 
+  205  git commit -m "test"
+  206  git push
+  207  make clean
+  208  make test
+  209  make clean
+  210  make week2
+  211  pwd
+  212  make clean
+  213  make
+  214  make se
+  215  make week2
+  216  make clean
+  217  make week2
+  218  make clean
+  219  make 
+  220  bin/test-se -w2
+  221  bin/test-se -w 2
+  222  bin/test-se
+  223  make test
+  224  bin/test-se
+  225  bin/test-se -h
+  226  bin/test-se -v1
+  227  make clean
+  228  make 
+  229  make clean
+  230  make 
+  231  bin/test-se -h
+  232  bin/test-se -v
+  233  bin/test-se -v1
+  234  bin/test-se -v1
+  235  make clean
+  236  make
+  237  bin/test-se -v1
+  238  make clean
+  239  make
+  240  bin/test-se -v1
+  241  make clean
+  242  make 
+  243  bin/test-se -v1
+  244  make clean
+  245  make
+  246  bin/test-se -v1
+  247  bin/test-se v2
+  248  make clean
+  249  make 
+  250  make clean
+  251  make 
+  252  bin/test-se -v1
+  253  bin/test-se -v2
+  254  make clean
+  255  make
+  256  bin/test-se -v1
+  257  make clean
+  258  make 
+  259  ls
+  260  ls
+  261  cd afa25
+  262  git remote -v
+  263  make trex
+  264  make
+  265  pwd
+  266  ls
+  267  cd f2025e1-a-master
+  268  make
+  269  make trex
+  270  ./bin/orderlogs
+  271  ./bin/orderlogs -h
+  272  ./bin/orderlogs -f testcases
+  273  make raptor
+  274  make spinosaurus
+  275  make trex
+  276  make spinosaurus
+  277  touch .aicheck
+  278  make spinosaurus
+  279  make trex
+  280  make raptor
+  281  make trike
+  282  gdb ./bin/orderlogs
+  283  make trike
+  284  gdb ./bin/orderlogs
+  285  rm bin/main.o bin/parser.o bin/reorder.o bin/orderlogs
+  286  make trex
+  287  ls
+  288  cd f2025e1-a-master
+  289  make trex
+  290  make trike
+  291  gdb ./bin/orderlogs
+  292  rm bin/main.o bin/parser.o bin/reorder.o bin/orderlogs
+  293  make trex
+  294  make trike
+  295  git remote -v
+  296  git clone git@github.com:victoriareddy/afa25.git
+  297  git remote -v
+  298  pwd
+  299  ls
+  300  git clone git@github.com:victoriareddy/afa25.git
+  301  git clone git@github.com:victoriareddy/afa25.git
+  302  ls
+  303  cd afall25
+  304  ls
+  305  cd f2025e1-a-master
+  306  ls
+  307  make trex
+  308  make spinosaurus
+  309  make trex
+  310  make spinosaurus
+  311  make trex
+  312  make raptor
+  313  make trike
+  314  gdb ./bin/orderlogs
+  315  make -B trike
+  316  make trike
+  317  gdb ./bin/orderlogs
+  318  make spinosaurus
+  319  make trex
+  320  make raptor
+  321  make stego
+  322  chmod +x ref_order
+  323  make spinosaurus
+  324  make stego
+  325  make trike
+  326  gdb ./bin/orderlogs
+  327  make -B trike
+  328  make spinosaurus
+  329  make trike
+  330  gdb ./bin/orderlogs
+  331  make spinosaurus
+  332  make raptor
+  333  make stego
+  334  ./bin/orderlogs testcases/all_old
+  335  ./bin/orderlogs -f  testcases/all_old
+  336  make trike
+  337  gdb ./bin/orderlogs
+  338  ls
+  339  cd f2025e1-a-master
+  340  make spinosaurus
+  341  make trex
+  342  make trego
+  343  make raptor
+  344  git clone git@github.com:victoriareddy/afall25.git
+  345  ls
+  346  cd f2025e1-a-master
+  347  make spinosaurus
+  348  make trex
+  349  make stego
+  350  make trike
+  351  gdb ./bin/orderlogs
+  352  make -B trike
+  353  gdb ./bin/orderlogs
+  354  make spinosaurus
+  355  make stego
+  356  make spinosaurus
+  357  make trex
+  358  make raptor
+  359  make stego
+  360  make trike
+  361  gdb
+  362  gdb ./bin/orderlogs
+  363  make spinosaurus
+  364  make stego
+  365  git remote -v
+  366  ls
+  367  cd bfall25
+  368  ls
+  369  cd f2025e1-b-master
+  370  cd ..
+  371  cd ..
+  372  ls
+  373  cd f2025e1-b-master
+  374  git remote -v
+  375  make trex
+  376  make spinosaurus
+  377  make trex
+  378  make raptor
+  379  make stego
+  380  chmod +x bin/oldlogs
+  381  chmod +x ./bin/orderlogs
+  382  make spinosaurus
+  383  make stego
+  384  make trike
+  385  gdb ./bin/orderlogs
+  386  make -B trike
+  387  make trike
+  388  gdb ./bin/orderlogs
+  389  make spinosaurus
+  390  make stego
+  391  make make -B trike
+  392  make -B trike
+  393  make trike
+  394  gdb ./bin/orderlogs
+  395  make spinosaurus
+  396  make stego
+  397  chmod +x ./bin/orderlogs
+  398  make stego
+  399  make trike
+  400  gdb ./bin/orderlogs
+  401  make -B trike
+  402  gdb ./bin/orderlogs
+  403  make spinosaurus
+  404  chmod +x ./bin/orderlogs
+  405  make spinosaurus
+  406  make raptor
+  407  make stego
+  408  gdb ./bin/orderlogs
+  409  make -B trike
+  410  gdb ./bin/orderlogs
+  411  ./bin/orderlogs -f testcases/all_new > myout.txt
+  412  ./ref_order -f testcases/all_new > refout.txt
+  413  chmod +x ./ref_order
+  414  ./ref_order -f testcases/all_new > refout.txt
+  415  make stego
+  416  history >  shell_logs.txt
+  417  cat  shell_logs.txt
+  418  git add . 
+  419  git commit -m "a"
+  420  git push
+  421  git clone git@github.com:victoriareddy/bfall25.git
+  422  ls
+  423  cd f2025e1-c-master
+  424  git remote -v
+  425  make trex
+  426  make spinosaurus
+  427  make trex
+  428  chmod +x ./bin/orderlogs
+  429  chmod +x ./ref_order
+  430  make raptor
+  431  make trike
+  432  make -B trike
+  433  gdb ./bin/orderlogs
+  434  make spinosaurus
+  435  make raptor
+  436  make stego
+  437  make -B trike
+  438  gdb ./bin/orderlogs
+  439  make spinosaurus
+  440  make raptor
+  441  make stego
+  442  history > shell_logs.txt
+  443  cat shell_logs.txt
+  444  git add . 
+  445  git commit -m "c"
+  446  git push
+  447  git clone git@github.com:victoriareddy/cmast.git
+  448  git remote -v`
+  449  git remote -v
+  450  make subway
+  451  chmod +x ./bin/sb
+  452  chmod +x ./ref_sb
+  453  make subway
+  454  make mikes
+  455  run -f testcases/catdel.trace
+  456  make potbelly
+  457  gdb ./bin/sb
+  458  make subway
+  459  make cheba
+  460  make potbelly
+  461  gdb ./bin/sb
+  462  make -B potbelly
+  463  gdb ./bin/sb
+  464  make snargs
+  465  make snarfs
+  466  make subway
+  467  make mikes
+  468  make subway
+  469  make cheba
+  470  git clone git@github.com:victoriareddy/dmast.git
+  471  ls
+  472  cd f2025e2-e-master
+  473  git remote -v
+  474  make subway
+  475  make mikes
+  476  make cheba
+  477  make potbelly
+  478  make -B potbelly
+  479  gdb ./bin/sb
+  480  make snarfs
+  481  make mikes
+  482  make cheba
+  483  chmod +x ./bin/sb
+  484  chmod +x ./ref_sb
+  485  make snarfs
+  486  make cheba
+  487  make -B potbelly
+  488  gdb ./bin/sb
+  489  make snarfs
+  490  make mikes
+  491  make cheba
+  492  make snarfs
+  493  make mikes
+  494  make cheba
+  495  make snarfs
+  496  make mikes
+  497  make cheba
+  498  make -B potbelly
+  499  gdb ./bin/sb
+  500  ls
+  501  cd f2025e2-e-master
+  502  make subway
+  503  make -B potbelly
+  504  chmod +x ./bin/sb
+  505  chmod +x ./ref_sb
+  506  gdb ./bin/sb
+  507  make -B potbelly
+  508  gdb ./bin/sb
+  509  make snarfs
+  510  make subway
+  511  make mikes
+  512  make cheba
+  513  history > shell_logs.txt

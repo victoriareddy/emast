@@ -1,0 +1,14 @@
+sb 0 created with content 'abc'
+sb 0: abc
+removed [2,3) from sb 0
+sb 0: ab
+appended 'd' to sb 0
+sb 0: abd
+removed [2,3) from sb 0
+sb 0: ab
+appended 'fg' to sb 0
+sb 0: abfg
+removed [2,4) from sb 0
+sb 0: ab
+appended '1' to sb 0
+sb 0: ab1

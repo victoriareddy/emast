@@ -31,9 +31,9 @@ int sb_compare(struct StringBuilder* s1, struct StringBuilder* s2) {
 
 void sb_append(struct StringBuilder* sb, char* str) {
     size_t str_size = strlen(str);
-    size_t capNeeded = sb->size + str_size;
+    size_t capNeeded = sb->size + str_size + 1;
     if (sb->capacity < capNeeded) {
-        char* newContent = malloc(capNeeded);
+        char* newContent = malloc(capNeeded );
         strcpy(newContent, sb->content);
         free(sb->content);
         sb->content = newContent;

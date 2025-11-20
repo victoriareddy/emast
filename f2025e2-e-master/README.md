@@ -2,18 +2,23 @@
 # You MUST Answer the following questions:
 **Git**: (10 words max)
 1. Paste exactly the output of `git remote -v`
+origin  git@github.com:victoriareddy/emast.git (fetch)
+origin  git@github.com:victoriareddy/emast.git (push)
 
 **Makefile**: (1 word max)
 1. What target compiles an executable with debug flags?
+potbellu
 2. Which target verifies your output is identical to the given reference?
-
+cheba
 **Linux CLI**: (5 words max)
 1. At least one testcase in the testcases file fails, paste a full, single  command that runs a failing testcase:
+ run -i testcases/catdel.trace
 
 **GDB**: (20 characters max)
 1. When running a failing testcase, what line does the program segfault at in its given state? Paste the line.
+__strcpy_avx2 () at ../sysdeps/x86_64/multiarch/strcpy-avx2.S:563
 2. What is the call stack when the program segfaults in its given state? Paste the call stack output by GDB.
-
+ __strcpy_avx2 -> sb_append -> main
 **C**: (10 words max)
 1. What logic error caused the program to segfault? Note, "dereferencing null" is not sufficient.
 2. Directly following this bug, how did you resolve the error?
